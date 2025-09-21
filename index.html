@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLV</title>
+</head>
+<body>
+  <!-- Butonul toggle -->
+  <button id="toggleBtn">Ascunde TOT</button>
+
+<div id="hamburger" class="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="toggle-menu" id="toggleMenu">
+  <label><input type="checkbox" id="toggleId" checked> Show Problem Number</label>
+  <label><input type="checkbox" id="toggleEnunt" checked> Show Enunț</label>
+  <label><input type="checkbox" id="toggleExemplu" checked> Show Exemplu</label>
+  <label><input type="checkbox" id="toggleProgram" checked> Show Program</label>
+</div>
+  <!-- Navbar -->
+  <div class="navbar">
+    <input class="js-searchNumber" type="text" placeholder="scrie nr la problema">
+    <button class="js-sumbit">Search</button>
+  </div>
+
+  <!-- Container problema -->
+  <div class="js-problemContainer">apare problema aici</div>
+
+  <script type="module" src="index.js"></script>
+</body>
+</html>
